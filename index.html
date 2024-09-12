@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta carset="UTF-8">
+    <meta name="description" content="hi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="hero">
+    <h1 id="title">Register-to-space-club-form</h1>
+    <p id="description"> Registering for the space club involves filling out a form where you provide your contact details, express your interest in space exploration, and maybe even share why you’re passionate about it. It’s like signing up for cosmic adventures! 🚀✨</p>
+  </div>
+    <main>
+      <form id="survey-form">
+        <label id="name-label">Enter your name:  <input id="name" type="text" required placeholder="Enter your full name"></label>
+        <label id="email-label">Enter your email:  <input id="email" type="email" required  placeholder="Enter your email"></label>
+        <label id="number-label">Enter your age: <input id="number" type="number" min="18" max="65"  placeholder="Enter your age"></label>
+        <label>your gender: </label>
+        <label><input name="gen" type="radio" value="1" checked>Male</label>
+        <label><input name="gen" type="radio" value="0">Female</label>
+        <label> where are you from:
+          <select id="dropdown">
+            <option>Tripoli</option>
+            <option>Benghazi</option>
+            <option>Misrata</option>
+            <option>Bayda</option>
+            <option>Tarhunah</option>
+            <option>Sabratha</option>
+            <option>Derna</option>
+            <option>Tobruk</option>
+            <option>Sirte</option>
+            <option>Ghadames</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <label>select the you want to enroll in: </label>
+        <label><input type="checkbox" value="f1">Vist space museum in Manhattan </label>
+        <label><input type="checkbox" value="f2">Attend a lecture about <strong>rocket sciences</strong></label>
+        <label><input type="checkbox" value="f3">Vist <strong>spce-x</strong> company </label>
+        <label><input type="checkbox" value="f4">Attend a lecture <strong>about robotics</strong> </label>
+        <label><input type="checkbox" value="f5">Be a member of <strong>NASA</strong> kids program </label>
+        
+        <label>tell us more about yourself and what you expect to learn in this club:<textarea></textarea></label>
+
+        <label><input type="checkbox" required value="accept">I accept all <a href="#">Terms and condtions<a> . </label>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
